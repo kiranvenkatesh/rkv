@@ -1,0 +1,36 @@
+{
+  "name": "rkv",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "requirejs": "latest"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-exec": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-mincss": "latest",
+    "grunt-contrib-qunit": "latest",
+    "grunt-r3m": "0.1.8",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-htmlmin": "~0.1.1",
+    "time-grunt": "~0.2.8",
+    "grunt-cli": "~0.1.12",
+    "browserify-shim": "latest",
+    "reactify": "~0.14.0",
+    "browserify-transform-tools": "latest",
+    "stringify": "~2.2.0"
+  },
+  "scripts": {
+    "grunt": "node_modules/.bin/grunt"
+  },
+  "volo": {
+    "dependencies": {
+      "text": "github:requirejs/text/2.0.12"
+    }
+  }
+}

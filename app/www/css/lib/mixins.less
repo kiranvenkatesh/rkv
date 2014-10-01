@@ -1,0 +1,71 @@
+.animation-name(@animation-name : empty) {
+  -webkit-animation-name: @animation-name;
+  -moz-animation-name: @animation-name;
+  -ms-animation-name: @animation-name;
+  -o-animation-name: @animation-name;
+  animation-name: @animation-name;
+}
+
+.animation-props(@duration, @delay, @mode, @ease) {
+  .animation-duration(@duration);
+
+  .animation-delay(@delay);
+
+  -webkit-animation-fill-mode: @mode;
+  -webkit-animation-easing: @ease;
+
+
+  -moz-animation-fill-mode: @mode;
+  -moz-animation-easing: @ease;
+
+
+  -ms-animation-fill-mode: @mode;
+  -ms-animation-easing: @ease;
+
+
+  -o-animation-fill-mode: @mode;
+  -o-animation-easing: @ease;
+
+
+  animation-fill-mode: @mode;
+  animation-easing: @ease;
+}
+
+.animation-duration(@duration) {
+  -webkit-animation-duration: @duration;
+  -moz-animation-duration: @duration;
+  -o-animation-duration: @duration;
+  -ms-animation-duration: @duration;
+  animation-duration: @duration;
+}
+
+.animation-delay(@delay) {
+  -webkit-animation-delay: @delay;
+  -moz-animation-delay: @delay;
+  -o-animation-delay: @delay;
+  -ms-animation-delay: @delay;
+  animation-delay: @delay;
+}
+
+.animation(@name, @duration : 0.5s, @delay : 0, @mode : both, @ease: ease-out) {
+  .animation-name(@name);
+  .animation-props(@duration, @delay, @mode, @ease);
+}
+
+.borderRadius(@radius) {
+  border-radius: @radius;
+}
+
+.box-shadow(@arguments) {
+  -webkit-box-shadow : @arguments;
+  -moz-box-shadow : @arguments;
+  -ms-box-shadow: @arguments;
+  box-shadow : @arguments;
+}
+
+.transition(@args) {
+  -webkit-transition : @args;
+  -moz-transition : @args;
+  -ms-transition : @args;
+  transition : @args;
+}

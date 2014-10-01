@@ -1,0 +1,44 @@
+.lgl-photo-box {
+  
+  .animation(fadeInUp);
+
+  .lgl-photo-container {
+    text-align: center;
+
+    .lgl-photos {
+      padding: 10px;
+      margin: 0 auto;  
+      text-align: center;
+      overflow-x: scroll;
+
+      @media(max-width: @olg-mobile-breakpoint) {
+          padding: 0;
+      }
+
+      .lgl-photo {
+        // .animation(flipInX,0.3s,1s);
+        // .borderRadius(5px);
+
+        cursor: pointer;
+        height: 150px;
+        width: 120px;
+        background: #888;
+        display: inline-block;
+        margin: 15px;    
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        box-shadow : 0 0 0 1px rgba(0,0,0,.04), 0 1px 5px rgba(0,0,0,0.1);
+
+        &:hover {
+          border: 3px solid #fff;
+          .transition(all 0.3s ease-in);
+        }
+
+        @media(max-width: @olg-mobile-breakpoint) {
+            margin: 5px;
+            height: 130px;
+            width: 100px;
+        }
+      }
+    }
+  }
+}
