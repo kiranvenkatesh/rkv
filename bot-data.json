@@ -1,0 +1,244 @@
+{
+  "data": {
+    "prod": [
+      {
+        "value": 0,
+        "peers": 2,
+        "bench": 3,
+        "time": 1509519600
+      },
+      {
+        "value": 1,
+        "peers": 5,
+        "bench": 6,
+        "time": 1512115200
+      },
+      {
+        "value": 3,
+        "peers": 8,
+        "bench": 10,
+        "time": 1514793600
+      },
+      {
+        "value": 6,
+        "peers": 14,
+        "bench": 14,
+        "time": 1517472000
+      },
+      {
+        "value": 7,
+        "peers": 18,
+        "bench": 19,
+        "time": 1519891200
+      },
+      {
+        "value": 10,
+        "peers": 25,
+        "bench": 22,
+        "time": 1522566000
+      },
+      {
+        "value": 12,
+        "peers": 28,
+        "bench": 25,
+        "time": 1525158000
+      },
+      {
+        "value": 14,
+        "peers": 35,
+        "bench": 32,
+        "time": 1527836400
+      },
+      {
+        "value": 14,
+        "peers": 38,
+        "bench": 36,
+        "time": 1530428400
+      },
+      {
+        "value": 18,
+        "peers": 42,
+        "bench": 40,
+        "time": 1533106800
+      },
+      {
+        "value": 19,
+        "peers": 46,
+        "bench": 45,
+        "time": 1535785200
+      },
+      {
+        "value": 21,
+        "peers": 50,
+        "bench": 49,
+        "time": 1538377200
+      },
+      {
+        "value": 23,
+        "peers": 55,
+        "bench": 53,
+        "time": 1541055600
+      }
+    ],
+    "uat": [
+      {
+        "value": 0,
+        "peers": 2,
+        "bench": 2,
+        "time": 1509519600
+      },
+      {
+        "value": 1,
+        "peers": 6,
+        "bench": 8,
+        "time": 1512115200
+      },
+      {
+        "value": 4,
+        "peers": 10,
+        "bench": 12,
+        "time": 1514793600
+      },
+      {
+        "value": 7,
+        "peers": 18,
+        "bench": 18,
+        "time": 1517472000
+      },
+      {
+        "value": 9,
+        "peers": 22,
+        "bench": 24,
+        "time": 1519891200
+      },
+      {
+        "value": 12,
+        "peers": 28,
+        "bench": 30,
+        "time": 1522566000
+      },
+      {
+        "value": 18,
+        "peers": 35,
+        "bench": 34,
+        "time": 1525158000
+      },
+      {
+        "value": 18,
+        "peers": 40,
+        "bench": 38,
+        "time": 1527836400
+      },
+      {
+        "value": 18,
+        "peers": 45,
+        "bench": 43,
+        "time": 1530428400
+      },
+      {
+        "value": 25,
+        "peers": 50,
+        "bench": 50,
+        "time": 1533106800
+      },
+      {
+        "value": 28,
+        "peers": 54,
+        "bench": 56,
+        "time": 1535785200
+      },
+      {
+        "value": 30,
+        "peers": 58,
+        "bench": 60,
+        "time": 1538377200
+      },
+      {
+        "value": 32,
+        "peers": 65,
+        "bench": 68,
+        "time": 1541055600
+      }
+    ],
+    "dev": [
+      {
+        "value": 2,
+        "peers": 5,
+        "bench": 8,
+        "time": 1509519600
+      },
+      {
+        "value": 3,
+        "peers": 8,
+        "bench": 10,
+        "time": 1512115200
+      },
+      {
+        "value": 6,
+        "peers": 13,
+        "bench": 14,
+        "time": 1514793600
+      },
+      {
+        "value": 9,
+        "peers": 22,
+        "bench": 25,
+        "time": 1517472000
+      },
+      {
+        "value": 12,
+        "peers": 25,
+        "bench": 28,
+        "time": 1519891200
+      },
+      {
+        "value": 15,
+        "peers": 30,
+        "bench": 34,
+        "time": 1522566000
+      },
+      {
+        "value": 20,
+        "peers": 38,
+        "bench": 40,
+        "time": 1525158000
+      },
+      {
+        "value": 22,
+        "peers": 43,
+        "bench": 45,
+        "time": 1527836400
+      },
+      {
+        "value": 23,
+        "peers": 48,
+        "bench": 49,
+        "time": 1530428400
+      },
+      {
+        "value": 28,
+        "peers": 54,
+        "bench": 55,
+        "time": 1533106800
+      },
+      {
+        "value": 30,
+        "peers": 60,
+        "bench": 62,
+        "time": 1535785200
+      },
+      {
+        "value": 32,
+        "peers": 65,
+        "bench": 65,
+        "time": 1538377200
+      },
+      {
+        "value": 35,
+        "peers": 70,
+        "bench": 75,
+        "time": 1541055600
+      }
+    ]
+  }
+}
